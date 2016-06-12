@@ -1,0 +1,111 @@
+# when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
+menu:
+  home: /
+  categories: /categories
+  archives: /archives
+  tags: /tags
+  about: /about
+  #commonweal: /404.html
+
+# Place your favicon.ico to /source directory.
+favicon: /favicon.ico
+
+# Set default keywords (Use a comma to separate)
+keywords: "Hexo,next"
+
+# Set rss to false to disable feed link.
+# Leave rss as empty to use site's feed link.
+# Set rss to specific value if you have burned your feed already.
+rss:
+
+# Icon fonts
+# Place your font into next/source/fonts, specify directory-name and font-name here
+# Avialable: default | linecons | fifty-shades | feather
+icon_font: default
+#icon_font: fifty-shades
+#icon_font: feather
+#icon_font: linecons
+
+# Code Highlight theme
+# Available value: normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night
+
+
+# MathJax Support
+mathjax:
+
+
+# Schemes
+scheme: Mist
+
+
+# Sidebar, available value:
+#  - post    expand on posts automatically. Default.
+#  - always  expand for all pages automatically
+#  - hide    expand only when click on the sidebar toggle icon.
+sidebar: post
+#sidebar: always
+#sidebar: hide
+
+
+# Automatically scroll page to section which is under <!-- more --> mark.
+scroll_to_more: true
+
+
+# Automatically add list number to toc.
+toc_list_number: true
+
+# Automatically Excerpt
+auto_excerpt:
+  enable: true
+  length: 150
+
+# Use Lato font
+# Note: this option is avialable only when the language is not `zh-Hans`
+use_font_lato: true
+
+# Make duoshuo show UA
+# user_id must NOT be null when admin_enable is true!
+# you can visit http://dev.duoshuo.com get duoshuo user id.
+duoshuo_info: # give up duoshuo
+  ua_enable: false
+  admin_enable: false
+  user_id: 0
+
+# share server
+# JiaThis share
+jiathis: false
+
+# duoshuo share
+duoshuo_share: false # give up duoshuo
+# duoshuo hot artical
+duoshuo_hotartical: false # give up duoshuo
+
+# baidu share
+baidu_share: true
+
+## DO NOT EDIT THE FOLLOWING SETTINGS
+## UNLESS YOU KNOW WHAT YOU ARE DOING
+
+# Use velocity to animate everything.
+use_motion: true
+
+# Fancybox
+fancybox: true
+
+# Some suprise plugs
+suprise:
+  ball_enable: true
+
+# 不蒜子统计
+busuanzi: false
+
+# Static files
+vendors: vendors
+css: css
+js: js
+images: images
+
+# Theme version
+version: 0.4.5.1
