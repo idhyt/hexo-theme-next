@@ -12,6 +12,10 @@
     Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
   </div>
 
+  <div class="theme-info">
+    Theme by <a class="theme-link" href="http://blog.idhyt.com">idhyt</a>.<a class="theme-link" href="https://github.com/idhyt/hexo-theme-next/tree/magiclamp">MagicLamp</a>
+  </div>
+
   <!-- busuanzi -->
   {% if (theme.busuanzi) %}
     <div class="powered-by">

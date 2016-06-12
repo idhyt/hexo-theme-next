@@ -18,6 +18,23 @@
     <span id="layer12Go" class="drag">r</span>
     <span id="layer13Go" class="drag">e</span>
     <span id="layer14Go" class="drag">?</span>
+    <!--
+    <span id="layer0Go" class="drag">烫</span>
+    <span id="layer1Go" class="drag">烫</span>
+    <span id="layer2Go" class="drag">烫</span>
+    <span id="layer3Go" class="drag">烫</span>
+    <span id="layer4Go" class="drag">烫</span>
+    <span id="layer5Go" class="drag">烫</span>
+    <span id="layer6Go" class="drag">烫</span>
+    <span id="layer7Go" class="drag">锟</span>
+    <span id="layer8Go" class="drag">斤</span>
+    <span id="layer9Go" class="drag">拷</span>
+    <span id="layer10Go" class="drag">屯</span>
+    <span id="layer11Go" class="drag">屯</span>
+    <span id="layer12Go" class="drag">屯</span>
+    <span id="layer13Go" class="drag">屯</span>
+    <span id="layer14Go" class="drag">屯</span>
+    -->
     <span id="layer15Go" class="drag ball"></span>
   </div>
 </div>

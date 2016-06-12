@@ -33,7 +33,8 @@ ul li { list-style: circle; }
 
 // Header
 // --------------------------------------------------
-.header { background: $whitesmoke; }
+// .header { background: $whitesmoke; }
+.header { background: $header-bg-color; }
 .header-inner {
   margin-bottom: 80px;
   padding: 40px 0;
@@ -55,7 +56,8 @@ ul li { list-style: circle; }
 
   .brand {
     padding: 2px 1px;
-    color: $black-deep;
+    // color: $black-deep;
+    color: $header-brand-color;
     background: none;
 
     +mobile() { display: block; }
@@ -85,7 +87,8 @@ ul li { list-style: circle; }
     position: relative;
     display: block;
     height: 2px;
-    background: $black-deep;
+    // background: $black-deep;
+    background: $header-brand-color
     +mobile() { height: 3px; }
   }
 }
@@ -132,7 +135,8 @@ ul li { list-style: circle; }
       text-align: left;
     }
 
-    &:hover { background: #e1e1e1; }
+    // &:hover { background: #e1e1e1; }
+    &:hover { background: $header-menu-hover-color; }
   }
 
   a::before {
@@ -211,14 +215,18 @@ ul li { list-style: circle; }
     text-align: left;
     a {
       padding: 1px 5px;
-      background: $whitesmoke;
+      // background: $whitesmoke;
+      background: $post-tags-bg-color;
+      color: $post-tags-text-color;
       border-bottom: none;
     }
+    // a:hover { background: $grey-light; }
     a:hover { background: $grey-light; }
   }
   .post-nav { margin-top: 40px; }
 }
 
+// 阅读全文
 .post-more-link {
   margin-top: 20px;
   text-align: left;
@@ -264,7 +272,8 @@ ul li { list-style: circle; }
 .footer {
   margin-top: 80px;
   padding: 10px 0;
-  background: $whitesmoke;
+  // background: $whitesmoke;
+  background: $footer-bg-color
   color: $grey-dim;
 }
 .footer-inner {

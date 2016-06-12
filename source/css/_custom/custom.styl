@@ -1,3 +1,60 @@
 // Custom styles.
 
 @import "_suprise/ball";
+
+// over write code color
+.post code {
+    background: none;
+    color: $gainsboro;
+    text-shadow: 0 0px #fff;
+}
+
+// post next article
+.post-nav-item a {
+    color: $gray-lighter;
+}
+
+// search input
+.site-search input {
+    border-bottom: 1px solid #fc6423;
+}
+
+// 归档
+.posts-collapse .post-title a {
+  color: $grey-light;
+  border-bottom: none;
+}
+
+// prev next
+.post-nav-item {
+  a:hover {
+    color: $blue-bright;
+  }
+}
+
+// post tags
+.posts-expand .post-tags a:hover {
+    background: none;
+    color: $blue-bright;
+}
+
+// blockquote
+blockquote {
+    color: $grey-light;
+}
+
+// Blockquote with all children centered.
+.blockquote-center {
+  
+  &::before, &::after {
+    background: none;
+  }
+}
+
+// footer info text color
+.powered-by, .theme-info { 
+  a {
+    color: $grey-dark;
+  }
+}
+
