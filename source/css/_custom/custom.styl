@@ -3,6 +3,11 @@
 @import "_suprise/ball";
 
 // over write code color
+
+#idhyt-surprise-ball #idhyt-surprise-ball-animation .drag {
+    color: #eee;
+}
+
 .post code {
     background: none;
     color: $gainsboro;
@@ -16,7 +21,7 @@
 
 // search input
 .site-search input {
-    border-bottom: 1px solid #fc6423;
+    border-bottom: 1px solid $blue-bright;
 }
 
 // 归档
@@ -58,3 +63,21 @@ blockquote {
   }
 }
 
+a:hover {
+  border-bottom-color: $blue-bright;
+}
+
+.menu .menu-item a:hover {
+  background: none;
+  color: $blue-bright; 
+}
+
+.post-more-link a:hover {
+  border-bottom-color: $blue-bright;
+}
+
+.btn:hover {
+  //border-color: $blue-bright;
+  color: $gray-lighter;
+  background: none;
+}
