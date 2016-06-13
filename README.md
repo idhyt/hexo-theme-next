@@ -9,15 +9,8 @@
 
 1.cd `/themes`
 
-2.modify `themes/_config.yml` => `theme: magiclamp`
+2.git clone -b magiclamp git@github.com:idhyt/hexo-theme-next.git
 
-3.git clone git@github.com:idhyt/hexo-theme-next.git
+3.mv hexo-theme-next magiclamp
 
-4.mv hexo-theme-next magiclamp
-
-5.cd magiclamp
-
-6.git branch -b magiclamp remotes/origin/magiclamp
-
-7.git checkout magiclamp
-
+4.modify `themes/_config.yml` => `theme: magiclamp`
