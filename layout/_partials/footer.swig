@@ -13,7 +13,7 @@
   </div>
 
   <div class="theme-info">
-    Theme by <a class="theme-link" href="http://blog.idhyt.com">idhyt</a>.<a class="theme-link" href="https://github.com/idhyt/hexo-theme-next/tree/master">MagicLamp</a>
+    Theme by <a class="theme-link" href="http://blog.idhyt.com">idhyt</a>.<a class="theme-link" href="https://github.com/idhyt/hexo-theme-next/tree/master">Mala</a>
   </div>
 
   <!-- busuanzi -->
