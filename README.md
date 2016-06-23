@@ -1,8 +1,8 @@
-## Magic Lamp
+## Mala Theme
 
 [black theme](https://github.com/idhyt/hexo-theme-next/tree/magiclamp) is ongoing...
 
-![blog-theme-mist](http://7xi9s3.com1.z0.glb.clouddn.com/blog-theme-magiclamp-black.png)
+![blog-theme-mala](http://7xi9s3.com1.z0.glb.clouddn.com/blog-theme-magiclamp-black.png)
 
 
 ## Usage
@@ -13,4 +13,6 @@
 
 3.mv hexo-theme-next magiclamp
 
-4.modify `themes/_config.yml` => `theme: magiclamp`
+4.modify `_config.yml` => `theme: magiclamp`
+
+5.modify `themes/magiclamp/_config.yml` => `scheme: Mala`
