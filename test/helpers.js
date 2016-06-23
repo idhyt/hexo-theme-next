@@ -113,19 +113,19 @@ define([
 
     '#displaySidebar': function () {},
 
-    '#isMist': {
+    '#isMala': {
       beforeEach: function () {
         CONFIG = {
           scheme: ''
         };
       },
       'should be true': function () {
-        CONFIG.scheme = 'Mist';
-        assert.isTrue( isMist() );
+        CONFIG.scheme = 'Mala';
+        assert.isTrue( isMala() );
       },
       'should be false': function () {
         CONFIG.scheme = 'Minimal';
-        assert.isFalse( isMist() );
+        assert.isFalse( isMala() );
       }
     }
 

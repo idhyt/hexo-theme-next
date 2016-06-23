@@ -64,7 +64,7 @@ $(document).ready(function () {
       { e: $('.logo'), p: { opacity: 1, top: 0 }, o: { duration: 50} }
     ];
 
-    isMist() && sequence.push(
+    isMala() && sequence.push(
         { e: $('.logo-line-before i'), p: { translateX: "100%" }, o: { duration: 500, sequenceQueue: false } },
         { e: $('.logo-line-after i'), p: { translateX: "-100%" }, o: { duration: 500, sequenceQueue: false } }
     );

@@ -1,17 +1,17 @@
 {
-  "name": "isn-next",
-  "version": "0.3.0",
-  "homepage": "https://github.com/iissnan/hexo-theme-next",
+  "name": "Mala",
+  "version": "0.1.0",
+  "homepage": "http://blog.idhyt.com/",
   "authors": [
-    "iissnan <iissnan@gmail.com>"
+    "idhyt <idhyt@hotmail.com>"
   ],
-  "description": "High quality and elegant theme for Hexo",
-  "repository": "https://github.com/iissnan/hexo-theme-next",
+  "description": "Black theme for Hexo",
+  "repository": "https://github.com/idhyt/hexo-theme-next/tree/magiclamp",
   "keywords": [
     "hexo",
     "notes",
     "theme",
-    "iissnan",
+    "Mala",
     "NexT"
   ],
   "license": "MIT",
