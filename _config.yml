@@ -102,8 +102,8 @@ suprise:
 donate:
   enable: true
   text: 听说，打赏我的人最后都找到了真爱。
-  wechat: http://o7keinrz4.bkt.clouddn.com/wechat.jpeg
-  alipay: http://o7keinrz4.bkt.clouddn.com/alipay.jpeg
+  wechat: http://o7keinrz4.bkt.clouddn.com/wechat.jpg
+  alipay: http://o7keinrz4.bkt.clouddn.com/alipay.jpg
 
 # 不蒜子统计
 busuanzi: false
