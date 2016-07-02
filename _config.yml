@@ -101,7 +101,7 @@ suprise:
 # donate
 donate:
   enable: true
-  text: 听说，打赏我的人最后都找到了真爱。
+  text: 仅仅是一个功能
   wechat: http://o7keinrz4.bkt.clouddn.com/wechat.jpg
   alipay: http://o7keinrz4.bkt.clouddn.com/alipay.jpg
 

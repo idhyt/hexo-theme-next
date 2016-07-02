@@ -8,7 +8,7 @@
     .donate_bar.hidden {
         display:none;
     }
-
+/*
     .donate_bar a.btn_donate {
         display: inline-block;
         width: 82px;
@@ -18,17 +18,17 @@
 
         background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat;
         _background: url("http://img.t.sinajs.cn/t5/style/images/apps_PRF/e_media/btn_reward.gif") no-repeat; 
-          
+
         -webkit-transition: background 0s;
         -moz-transition: background 0s;
         -o-transition: background 0s;
         -ms-transition: background 0s;
         transition: background 0s;
     }
-
+*/
     .donate_bar a.btn_donate:hover { 
-        background-position: 0px -82px;
-
+        // background-position: 0px -82px;
+        color: #87daff
     }
 
     .donate_bar .donate_txt {
@@ -65,8 +65,8 @@
 
     <div class ="post-donate">
         <div id="donate_board" class="donate_bar center">
-              <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏"></a>
-              <span class="donate_txt">
+              <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏">赏</a>
+              <span id="donate_txt" class="donate_txt">
                    {% if theme.donate.text %}
                         {{ theme.donate.text }}
                    {% endif %}          
@@ -118,6 +118,7 @@
                 $('#donate_board').addClass('hidden');
                 $('#donate_guide').removeClass('hidden');
             }
+
         </script>
     </div>
 
