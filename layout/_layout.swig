@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html class="theme-next {% if theme.use_motion %}use-motion{% endif %} {% if theme.scheme %}theme-next-{{ theme.scheme | lower }}{% endif %}">
 <head>
@@ -17,14 +18,18 @@
       <div class="header-inner"> {%- include '_partials/header.swig' %} </div>
     </header>
 
-    {% if (theme.suprise.ball and is_home()) %}
-      {% include '_partials/suprise/ball.swig' %}
-    {% endif %}
+    {% if (isMobile()) %}
 
-    {% if (theme.suprise.assist) %}
-      {% include '_partials/suprise/assist.swig' %}
-    {% endif %}
+    {% else %}
+      {% if (theme.suprise.ball and is_home()) %}
+          {% include '_partials/suprise/ball.swig' %}
+      {% endif %}
 
+      {% if (theme.suprise.assist) %}
+        {% include '_partials/suprise/assist.swig' %}
+      {% endif %}
+
+    {% endif %}
 
     <main id="main" class="main">
       <div class="main-inner">
