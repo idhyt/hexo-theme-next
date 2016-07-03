@@ -96,7 +96,8 @@ fancybox: true
 
 # Some suprise plugs
 suprise:
-  ball_enable: true
+  ball: true
+  assist: true
 
 # donate
 donate:
