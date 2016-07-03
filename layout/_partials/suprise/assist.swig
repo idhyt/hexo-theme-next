@@ -65,6 +65,7 @@
             }
         }
     });
+
 /*
     $whitesmoke   = #f5f5f5
     $gainsboro    = #eee
@@ -99,11 +100,17 @@
         $("#assist_btn").hide();
     }
 
+    $(function () {
+        $("#assist_btn").dblclick(function() {
+            switch_theme();
+        });
+    });
+
 </script>
 
 <div>
 
-    <button class="assist-btn circle" id="assist_btn" ondblclick="switch_theme()">
+    <button class="assist-btn circle" id="assist_btn">
         亮
     </button>
 

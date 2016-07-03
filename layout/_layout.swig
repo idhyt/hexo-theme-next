@@ -18,7 +18,7 @@
       <div class="header-inner"> {%- include '_partials/header.swig' %} </div>
     </header>
 
-    {% if (isMobile()) %}
+    {% if isMobile() %}
 
     {% else %}
       {% if (theme.suprise.ball and is_home()) %}

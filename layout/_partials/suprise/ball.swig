@@ -42,18 +42,12 @@
 <style type="text/css">
 
 #idhyt-surprise-ball {
- +mobile() {
-    display: none;
-  }
     width: 100%;
     height: 100px;
     margin: 0;
 }
 
 #idhyt-surprise-ball-animation {
- +mobile() {
-    display: none;
-  }
     width: 320px;
     position: absolute;
     top: 50px;
