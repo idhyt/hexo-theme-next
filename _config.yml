@@ -8,7 +8,7 @@ menu:
   #commonweal: /404.html
 
 # Place your favicon.ico to /source directory.
-favicon: /favicon.ico
+favicon: /img/favicon.png
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo,next"
@@ -100,11 +100,11 @@ suprise:
   assist: true
 
 # donate
-donate:
-  enable: true
-  text: 仅仅是一个功能
-  wechat: http://o7keinrz4.bkt.clouddn.com/wechat.jpg
-  alipay: http://o7keinrz4.bkt.clouddn.com/alipay.jpg
+# donate:
+#   enable: true
+#   text: 仅仅是一个功能
+#   wechat: http://o7keinrz4.bkt.clouddn.com/wechat.jpg
+#   alipay: http://o7keinrz4.bkt.clouddn.com/alipay.jpg
 
 # 不蒜子统计
 busuanzi: false
