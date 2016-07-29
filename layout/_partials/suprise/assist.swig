@@ -110,7 +110,7 @@
 
 <div>
 
-    <button class="assist-btn circle" id="assist_btn">
+    <button class="assist-btn circle" id="assist_btn" title="双击切换">
         亮
     </button>
 

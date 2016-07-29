@@ -69,7 +69,7 @@
               <span id="donate_txt" class="donate_txt">
                    {% if theme.donate.text %}
                         {{ theme.donate.text }}
-                   {% endif %}          
+                   {% endif %}
               </span>
             <br>
         </div>  

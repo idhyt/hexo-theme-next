@@ -106,6 +106,9 @@ donate:
   wechat: http://o7keinrz4.bkt.clouddn.com/wechat.jpg
   alipay: http://o7keinrz4.bkt.clouddn.com/alipay.jpg
 
+# disqus auto loading
+disqus_load: false
+
 # 不蒜子统计
 busuanzi: false
 
