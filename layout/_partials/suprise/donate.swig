@@ -116,7 +116,8 @@
         <script type="text/javascript">
             document.getElementById('btn_donate').onclick = function() {
                 $('#donate_board').addClass('hidden');
-                $('#donate_guide').removeClass('hidden');
+                // $('#donate_guide').removeClass('hidden');
+                $('#donate_guide').show(2000);
             }
 
         </script>
