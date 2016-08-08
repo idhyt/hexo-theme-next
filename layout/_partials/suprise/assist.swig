@@ -86,18 +86,19 @@
     var a_tag = {color: "#222"};
     var header = { background: "#f5f5f5"};
     var logo_line_i = {background: "#222"};
-    var post_code = {background: "#eee", color: "#222"};
+    // var post_code = {background: "#eee", color: "#222"};
 
     function switch_theme() {
         $("body").css(body);
-        $("a:not('.links-of-author-item a, .site-state-item a, .site-state-posts a, .feed-link a, .motion-element a, .post-tags a')").css(a_tag);
+        $("a:not('.links-of-author-item a, .site-state-item a, .site-state-posts a, .feed-link a, .motion-element a, .post-tags a, .show-commit-cls a, #donate_board a')").css(a_tag);
         $(".header, .footer").css(header);
         $(".logo-line-before i, .logo-line-after i").css(logo_line_i);
-        $(".post code").css(post_code);
+        //$(".post code").css(post_code);
         $("#idhyt-surprise-ball #idhyt-surprise-ball-animation .drag").css(a_tag);
         $(".post-title-link, .posts-expand .post-meta, .post-comments-count, .disqus-comment-count, .post-category a, .post-nav-next a, .post-nav-item a").css(a_tag);
         
-        $("#assist_btn").hide();
+        // $("code").css({color: '#c5c8c6', background: '#1d1f21'});
+        $("#assist_btn").hide(1500);
     }
 
     $(function () {

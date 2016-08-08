@@ -44,7 +44,7 @@
             display: inline-block;
             color: #ddd;
             font: 14px/2 "Microsoft Yahei";
-            background-color: #444;
+            background: #444;
             padding: 1px 5px;
             border-bottom: none;
             // background:url("data:image/svg+xml;base64,PD94bWwgdm3Mz4=") no-repeat 0 50%
@@ -53,7 +53,7 @@
         .show-commit-cls a:hover { 
             // background-position: 0px -82px;
             color: #87daff;
-            background-color:#333;
+            background: none;
         }
 
         .show-commit-dsp {
