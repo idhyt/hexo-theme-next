@@ -1,0 +1,102 @@
+// Custom of Mala scheme.
+
+// over write code color
+
+.post code {
+    background: none;
+    color: $gainsboro;
+    text-shadow: 0 0px #fff;
+}
+
+// post next article
+.post-nav-item a {
+    color: $gray-lighter;
+}
+
+// search input
+.site-search input {
+    border-bottom: 1px solid $blue-bright;
+    color: $gray-lighter;
+}
+
+// 归档
+.posts-collapse .post-title a {
+  color: $grey-light;
+  border-bottom: none;
+}
+
+// prev next
+.post-nav-item {
+  a:hover {
+    color: $blue-bright;
+  }
+}
+
+// post tags
+.posts-expand .post-tags a:hover {
+    background: none;
+    color: $blue-bright;
+}
+
+// blockquote
+blockquote {
+    color: $grey-light;
+}
+
+// Blockquote with all children centered.
+.blockquote-center {
+  
+  &::before, &::after {
+    background: none;
+  }
+}
+
+// footer info text color
+.powered-by, .theme-info, .busuanzi-info { 
+  a {
+    color: $grey-dark;
+  }
+}
+
+.busuanzi-info { 
+  
+}
+
+
+a:hover {
+  border-bottom-color: $blue-bright;
+}
+
+.menu .menu-item a:hover {
+  background: none;
+  color: $blue-bright; 
+}
+
+.post-more-link a:hover {
+  border-bottom-color: $blue-bright;
+}
+
+.btn:hover {
+  // border-color: $blue-bright;
+  color: $gray-lighter;
+  background: none;
+}
+
+// not show in mobile
+#idhyt-surprise-ball {
+  +mobile() {
+    display: none;
+  }
+}
+
+#idhyt-surprise-ball-animation {
+  +mobile() {
+    display: none;
+  }
+}
+
+#assist_btn {
+  +mobile() {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Mala",
+  "version": "0.1.0",
+  "homepage": "http://blog.idhyt.com/",
+  "authors": [
+    "idhyt <idhyt@hotmail.com>"
+  ],
+  "description": "Black theme for Hexo",
+  "repository": "https://github.com/idhyt/hexo-theme-next/tree/magiclamp",
+  "keywords": [
+    "hexo",
+    "notes",
+    "theme",
+    "Mala",
+    "NexT"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "source/vendors",
+    "test",
+    "tests",
+    "screenshots"
+  ],
+  "dependencies": {
+    "fancybox": "~2.1.5",
+    "velocity": "~1.2.1",
+    "jquery": "http://code.jquery.com/jquery-2.1.3.min.js",
+    "fastclick": "~1.0.6"
+  }
+}
