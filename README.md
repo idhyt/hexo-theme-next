@@ -2,7 +2,7 @@
 
 [black theme](https://github.com/idhyt/hexo-theme-next/tree/magiclamp) is ongoing...
 
-![blog-theme-mala](http://7xi9s3.com1.z0.glb.clouddn.com/blog-theme-magiclamp-black.png)
+![blog-theme-mala](https://raw.githubusercontent.com/idhyt/dummyimg/master/blogs/daily/blog-theme-magiclamp-black.png)
 
 
 ## Usage
@@ -136,8 +136,8 @@ suprise:
 donate:
   enable: true
   text: 仅仅是一个功能
-  wechat: http://o7keinrz4.bkt.clouddn.com/wechat.jpg
-  alipay: http://o7keinrz4.bkt.clouddn.com/alipay.jpg
+  wechat: https://raw.githubusercontent.com/idhyt/dummyimg/master/blogs/daily/wechat.jpg
+  alipay: https://raw.githubusercontent.com/idhyt/dummyimg/master/blogs/daily/alipay.jpg
 
 # 不蒜子统计
 busuanzi: false
