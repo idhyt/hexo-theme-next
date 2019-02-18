@@ -8,8 +8,8 @@
 ## Modify
 [default theme](https://github.com/idhyt/hexo-theme-next/tree/master)
 
-![blog-theme-mist](http://7xi9s3.com1.z0.glb.clouddn.com/blog-theme-magiclamp-white.png)
+![blog-theme-mist](https://raw.githubusercontent.com/idhyt/dummyimg/master/blogs/daily/blog-theme-magiclamp-white.png)
 
 [black theme](https://github.com/idhyt/hexo-theme-next/tree/magiclamp)
 
-![blog-theme-mist](http://7xi9s3.com1.z0.glb.clouddn.com/blog-theme-magiclamp-black.png)
+![blog-theme-mist](https://raw.githubusercontent.com/idhyt/dummyimg/master/blogs/daily/blog-theme-magiclamp-white.png/blog-theme-magiclamp-black.png)
